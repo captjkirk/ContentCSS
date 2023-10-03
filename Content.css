@@ -1,10 +1,12 @@
 btn-wrapper.ng-star-inserted {
-display:none}
+display:none !important
+}
 
 .get-ticket-button-wrapper.ng-tns-c224-4.ng-star-inserted {
-    visibility:hidden
+    visibility:hidden !important
 }
 
 
 span.mat-button-wrapper {
-display:none}
+display:none !important
+}
