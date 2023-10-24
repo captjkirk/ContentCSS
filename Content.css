@@ -1,12 +1,78 @@
-btn-wrapper.ng-star-inserted {
-display:none !important
+ /*Hides every Register button on dynamic UI on Desktop*/
+
+button.mat-focus-indicator.register-button.mat-button.mat-button-base.ng-star-inserted
+, .get-ticket-button-wrapper.ng-tns-c224-4.ng-star-inserted {
+    display: none!important;
 }
 
-.get-ticket-button-wrapper.ng-tns-c224-4.ng-star-inserted {
-    visibility:hidden !important
+/*This will remove it from the bottom nav menu in mobile*/
+bt-master-event-ui-register-button.ng-star-inserted {
+    display: none;
+}
+
+/*Move event title, date and description up a bit*/
+ .event-description.ng-star-inserted, .event-details {
+    padding-top: 0px!important;
+}
+
+/*Removes empty space around previously removed Register Button*/
+.btn-wrapper.ng-star-inserted {
+    padding: 0px!important;
+}
+
+/*Expand the nav bar menu as we no longer have a register button on top*/
+.navbar-content {
+    max-width: 100%!important;
 }
 
 
-span.mat-button-wrapper {
-display:none !important
+/*What gives the image its size is the padding on its container so removing it and increasing it at will
+will make the image the desired size by default is set to 29.24%*/
+.banner-image.ng-star-inserted {
+    padding-bottom: 20%!important;
+}
+
+/*Target the video content screen sizes over 1000px width*/
+@media screen and (min-width:1000px) {
+    .event-details p img {
+    border-style: groove!important;
+    display: inline-block;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-color: black;    
+    border-radius:10px;
+ }
+}
+
+/*Target devices up from 421px up to 1000px width*/
+@media screen and (max-width:999px){
+    .event-details p img {
+    border-style: groove!important;
+    display: inline-block;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-color: black;    
+    border-radius:10px;
+ }
+}
+
+/*Target smaller devices*/
+@media screen and (max-width:420px){
+    .event-details p img {
+    border-style: groove!important;
+    display: inline-block;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-color: black;    
+    border-radius:10px;
+ }
 }
