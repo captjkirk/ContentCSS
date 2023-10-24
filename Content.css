@@ -1,7 +1,7 @@
  /*Hides every Register button on dynamic UI on Desktop*/
 
 button.mat-focus-indicator.register-button.mat-button.mat-button-base.ng-star-inserted
-, .get-ticket-button-wrapper.ng-tns-c224-4.ng-star-inserted {
+, .get-ticket-button-wrapper{
     display: none!important;
 }
 
