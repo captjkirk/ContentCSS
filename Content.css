@@ -76,3 +76,12 @@ will make the image the desired size by default is set to 29.24%*/
     border-radius:10px;
  }
 }
+.event-date-container {
+  display: none;
+}
+@media (min-width:600px) {
+    button.content-download-button {
+    width: max-content;
+    float: right!important;
+ }
+}
