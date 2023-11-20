@@ -37,8 +37,6 @@ will make the image the desired size by default is set to 29.24%*/
     .event-details p img {
     border-style: groove!important;
     display: inline-block;
-    padding-left: 20vw;
-    padding-right: 20vw;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
@@ -52,8 +50,6 @@ will make the image the desired size by default is set to 29.24%*/
     .event-details p img {
     border-style: groove!important;
     display: inline-block;
-    padding-left: 15vw;
-    padding-right: 15vw;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
@@ -67,8 +63,6 @@ will make the image the desired size by default is set to 29.24%*/
     .event-details p img {
     border-style: groove!important;
     display: inline-block;
-    padding-left: 5vw;
-    padding-right: 5vw;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
