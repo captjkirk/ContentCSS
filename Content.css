@@ -79,3 +79,6 @@ will make the image the desired size by default is set to 29.24%*/
     float: right!important;
  }
 }
+h1.event-name {
+    display: none!important;
+}
